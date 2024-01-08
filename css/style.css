@@ -3,8 +3,8 @@
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 25px;
+  padding: 25px;
 }
 
 ul li {
@@ -31,7 +31,7 @@ ul li:hover {
 }
 
 ul li.checked {
-  background: #276678;
+  background: rgb(79, 190, 79);
   color: #fff;
   text-decoration: line-through;
 }
@@ -57,14 +57,14 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f78501;
+  background-color: red;
   color: white;
 
 }
 
 .header {
-  background-color: #f78501;
-  padding: 30px 40px;
+  background-color: rgb(79, 190, 79);
+  padding: 20px 30px;
   color: white;
   text-align: center;
 }
@@ -87,13 +87,14 @@ input {
   padding: 10px;
   float: left;
   font-size: 16px;
+  color: black;
 }
 
 .button {
   padding: 10px;
   width: 25%;
-  background: #d9d9d9;
-  color: #555;
+  background: rgb(189, 187, 187);
+  color: black;
   float: left;
   text-align: center;
   font-size: 16px;
